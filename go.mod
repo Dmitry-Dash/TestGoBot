@@ -1,4 +1,4 @@
-module TestGoBot
+module github.com/Dmitry-Dash/TestGoBot
 
 go 1.25.5
 
