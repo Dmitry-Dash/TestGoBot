@@ -50,7 +50,7 @@ func main() {
 	handler.HandleMessage(func(ctx *th.Context, message telego.Message) error {
 		chatID := tu.ID(message.Chat.ID)
 
-		// Если есть текст — отправляем текст обратно
+		// Если есть текст - отправляем текст обратно
 		if message.Text != "" {
 			params := tu.Message(chatID, message.Text)
 
